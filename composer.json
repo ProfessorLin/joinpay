@@ -1,0 +1,22 @@
+{
+    "name": "liner/joinpay",
+    "description": "joinpay && pay",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lin-er",
+            "email": "1013232924@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 7.1",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "joinpay\\": "src/"
+        }
+    }
+}
