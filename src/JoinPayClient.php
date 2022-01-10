@@ -125,7 +125,7 @@ class JoinPayClient implements JoinPayFactoryInterface
      * @throws \GuzzleHttp\Exception\GuzzleException
      * @throws \HttpException
      */
-    private function requestGateway($uri,$params,$method='GET',$isJsonRequest=false){
+    private function requestGateway($uri, $params, string $method='GET', $isJsonRequest=false){
 
         $client = new \GuzzleHttp\Client();
         switch ($method){
